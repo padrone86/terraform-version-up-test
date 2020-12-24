@@ -1,6 +1,6 @@
 # terraform {} 内では変数使用不可
 terraform {
-  required_version = "0.11.14"
+  required_version = "0.12.29"
 
   backend "s3" {
     region  = "ap-northeast-1"
